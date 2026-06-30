@@ -1,0 +1,32 @@
+[
+    {
+        "label":"Phase 1",
+        "income":8000,
+        "outflow":4444
+    },
+        {
+        "label":"Phase 1",
+        "income":8000,
+        "outflow":4444
+    },
+        {
+        "label":"Phase 2",
+        "income":5000,
+        "outflow":7444
+    },
+        {
+        "label":"Phase 3",
+        "income":7000,
+        "outflow":74444
+    },
+        {
+        "label":"Phase 4",
+        "income":9000,
+        "outflow":94444
+    },
+        {
+        "label":"Phase 5",
+        "income":1000,
+        "outflow":64444
+    }
+]

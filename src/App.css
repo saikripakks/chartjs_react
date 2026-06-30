@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: indigo;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 25px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  min-height: 220px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  border: 1px solid #e9edf5;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.radarCard {
+  grid-column: span 2;
+  min-height: 350px;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .App {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .radarCard {
+    grid-column: span 2;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .App {
+    grid-template-columns: 1fr;
+  }
+
+  .radarCard {
+    grid-column: span 1;
+  }
+
+  .card {
+    min-height: 200px;
+  }
+}

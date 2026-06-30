@@ -1,0 +1,14 @@
+[
+    {
+        "label":"Digital Products",
+        "value":42
+    },
+        {
+        "label":"Client Services",
+        "value":55
+    },
+        {
+        "label":"Partnership",
+        "value":88
+    }
+]
