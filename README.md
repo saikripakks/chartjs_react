@@ -1,8 +1,7 @@
 # Chart.js React Dashboard
 
 A beautiful and responsive data visualization dashboard built with **React**, **Vite**, and **Chart.js** (`react-chartjs-2`).
-
-![Dashboard Preview](./dashboard-preview.png)
+![Dashboard Preview](./image.png)
 
 ## 📊 Features
 
