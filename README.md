@@ -47,5 +47,3 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 - [Chart.js](https://www.chartjs.org/)
 - [react-chartjs-2](https://react-chartjs-2.js.org/)
 
-## 📝 Note on Image
-Make sure to save your dashboard screenshot as `dashboard-preview.png` in the root of the project directory so it displays correctly in this README!
